@@ -60,7 +60,7 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
       >
         <Link href="/" className="flex items-center space-x-2 pr-2">
           <NextImage
-            src="logo.svg"
+            src="logo.jpg"
             alt="logo"
             width={32}
             height={32}

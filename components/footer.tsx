@@ -47,7 +47,13 @@ export const Footer = () => {
 
       <div className="relative z-[999] mt-16 flex flex-col items-center justify-between md:flex-row">
         <div className="flex items-center gap-2">
-          <NextImage src="logo.svg" alt="logo" width={24} height={24} />
+          <NextImage
+            src="logo.jpg"
+            alt="logo"
+            width={24}
+            height={24}
+            className="rounded-full"
+          />
           <p className="text-sm font-light md:text-base md:font-normal">
             Copyright &copy; {new Date().getFullYear()}{" "}
             <Link
