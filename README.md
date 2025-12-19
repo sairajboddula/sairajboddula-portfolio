@@ -55,7 +55,7 @@ Automated differential analysis for PDF documents, ensuring data integrity in ve
 
 ```bash
 # Clone the repository
-git clone https://github.com/sairajboddula/next-portfolio.git
+git clone https://github.com/sairajboddula/sairajboddula-portfolio.git
 
 # Install dependencies
 npm install --legacy-peer-deps

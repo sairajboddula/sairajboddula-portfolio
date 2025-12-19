@@ -57,11 +57,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sairajboddula/next-portfolio.git"
+    "url": "https://github.com/sairajboddula/sairajboddula-portfolio.git"
   },
-  "homepage": "https://github.com/sairajboddula/next-portfolio#readme",
+  "homepage": "https://github.com/sairajboddula/sairajboddula-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sairajboddula/next-portfolio/issues",
+    "url": "https://github.com/sairajboddula/sairajboddula-portfolio/issues",
     "email": "sairajboddula@gmail.com"
   },
   "dependencies": {

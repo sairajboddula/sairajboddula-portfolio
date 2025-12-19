@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextImage from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { Spotlight } from "@/components/ui/spotlight";
@@ -27,9 +28,18 @@ export const Hero = () => {
 
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
-          <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">
-            Dynamic Web Magic with Next.js
-          </h2>
+          <div className="flex flex-col items-center">
+            <NextImage
+              src="logo.svg"
+              alt="logo"
+              width={80}
+              height={80}
+              className="mb-6 h-20 w-20 animate-pulse"
+            />
+            <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">
+              Dynamic Web Magic with Next.js
+            </h2>
+          </div>
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"

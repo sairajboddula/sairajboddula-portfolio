@@ -31,10 +31,10 @@ export const gridItems = [
   {
     id: 3,
     title: "💻",
-    description: "Always evolving with the latest tech",
+    description: "Always evolving\n with the latest tech",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-start",
+    titleClassName: "justify-center",
     img: "",
     spareImg: "",
   },

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import NextImage from "next/image";
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
 
@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer id="contact" className="mb-[100px] w-full pb-10 md:mb-auto">
       <div className="absolute -bottom-72 left-0 min-h-96 w-full">
-        <Image
+        <NextImage
           src="footer-grid.svg"
           alt="grid"
           className="h-full w-full opacity-50"
@@ -46,21 +46,24 @@ export const Footer = () => {
       </div>
 
       <div className="relative z-[999] mt-16 flex flex-col items-center justify-between md:flex-row">
-        <p className="text-sm font-light md:text-base md:font-normal">
-          Copyright &copy; {new Date().getFullYear()}{" "}
-          <Link
-            href="https://github.com/sairajboddula"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="text-purple"
-          >
-            Sairaj Boddula
-          </Link>{" "}
-          |{" "}
-          <Link href={links.sourceCode} className="underline">
-            Source Code
-          </Link>
-        </p>
+        <div className="flex items-center gap-2">
+          <NextImage src="logo.svg" alt="logo" width={24} height={24} />
+          <p className="text-sm font-light md:text-base md:font-normal">
+            Copyright &copy; {new Date().getFullYear()}{" "}
+            <Link
+              href="https://github.com/sairajboddula"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="text-purple"
+            >
+              Sairaj Boddula
+            </Link>{" "}
+            |{" "}
+            <Link href={links.sourceCode} className="underline">
+              Source Code
+            </Link>
+          </p>
+        </div>
 
         <div className="flex items-center gap-6 md:gap-3">
           {socialMedia.map((profile) => (
@@ -72,7 +75,7 @@ export const Footer = () => {
               className="saturate-180 flex size-10 items-center justify-center rounded-lg border border-black-300 bg-black-200 bg-opacity-75 backdrop-blur-lg backdrop-filter"
               title={profile.name}
             >
-              <Image
+              <NextImage
                 src={profile.img}
                 alt={`profile-${profile.name}`}
                 width={20}

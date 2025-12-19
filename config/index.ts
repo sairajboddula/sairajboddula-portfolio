@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const links = {
-  sourceCode: "https://github.com/sairajboddula/next-portfolio",
+  sourceCode: "https://github.com/sairajboddula/sairajboddula-portfolio",
   ownerName: "Sairaj Boddula",
   ownerEmail: "sairajboddula@gmail.com",
 } as const;
