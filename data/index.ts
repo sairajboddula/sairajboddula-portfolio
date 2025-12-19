@@ -34,7 +34,7 @@ export const gridItems = [
     description: "Always evolving with the latest tech",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
-    titleClassName: "justify-center",
+    titleClassName: "justify-start",
     img: "",
     spareImg: "",
   },

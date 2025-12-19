@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const links = {
   sourceCode: "https://github.com/sairajboddula/next-portfolio",
-  ownerName: "Boddula Venkat Sairaj",
+  ownerName: "Sairaj Boddula",
   ownerEmail: "sairajboddula@gmail.com",
 } as const;
 
@@ -10,7 +10,7 @@ export const siteConfig: Metadata = {
   title: `${links.ownerName}'s Portfolio`,
   description: "Modern & Minimalist Python & AI Portfolio.",
   keywords: [
-    "Boddula Venkat Sairaj",
+    "Sairaj Boddula",
     "Python Developer",
     "Gen AI",
     "Agentic AI",

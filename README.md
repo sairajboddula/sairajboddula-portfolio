@@ -1,4 +1,4 @@
-# 🌌 Boddula Venkat Sairaj | Software Developer & AI Specialist
+# 🌌 Sairaj Boddula | Software Developer & AI Specialist
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -83,5 +83,5 @@ npm run dev
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <b>Boddula Venkat Sairaj</b></sub>
+  <sub>Built with ❤️ by <b>Sairaj Boddula</b></sub>
 </div>

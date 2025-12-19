@@ -37,7 +37,9 @@ export const Hero = () => {
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Hi, I&apos;m {links.ownerName}, a Gen AI or Python Developer based in India.
+            Hi, I&apos;m{" "}
+            <span className="font-bold text-purple">{links.ownerName}</span>, a
+            Python and Gen AI Developer based in India.
           </p>
 
           <Link href="#about" className="md:mt-10">

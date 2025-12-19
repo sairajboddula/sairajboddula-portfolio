@@ -15,9 +15,9 @@ export const Approach = () => {
 
       <div className="my-20 flex flex-col items-center justify-center gap-4 lg:flex-row">
         <Card
-          title="Planning & Strategy"
+          title="AI Strategy & Architecture"
           icon={<MagicButton title="Phase 1" asChild />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+          description="We'll focus on defining your AI goals, identifying key use cases for LLMs, and designing robust agentic workflows and data architectures that scale."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +26,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Deployment & Progress Update"
+          title="Development & Cloud Integration"
           icon={<MagicButton title="Phase 2" asChild />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          description="Once the strategy is set, I build custom AI solutions using Python/GenAI, integrate them with cloud providers (AWS, Azure, GCP), and develop efficient FastAPI backends."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,9 +42,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Development & Launch"
+          title="Deployment & Continuous Optimization"
           icon={<MagicButton title="Phase 3" asChild />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          description="I wrap everything in Docker and Kubernetes for seamless deployment, then use Jenkins for CI/CD, ensuring your AI systems are always optimized and production-ready."
         >
           <CanvasRevealEffect
             animationSpeed={3}
