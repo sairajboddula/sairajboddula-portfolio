@@ -202,6 +202,6 @@ export const socialMedia = [
 ] as const;
 
 export const techStack = {
-  stack1: ["Python (Snowpark, GenAI)", "Java", "SQL", "Shell Scripting"],
-  stack2: ["OpenAI", "LangChain", "Snowflake", "FastAPI", "Jenkins", "Power BI"],
+  stack1: ["Python (Snowpark, GenAI)", "Java", "SQL", "Shell Scripting", "Agentic AI", "Azure Cloud"],
+  stack2: ["OpenAI", "LangChain", "Snowflake", "FastAPI", "Jenkins", "Power BI", "GCP", "AWS", "Docker", "Kubernetes"],
 } as const;
