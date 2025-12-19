@@ -27,7 +27,7 @@ export const RecentProjects = () => {
                     <Image
                       height={330}
                       width={552}
-                      src="/bg.png"
+                      src="bg.png"
                       alt="bg-img"
                     />
                   </div>

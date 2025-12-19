@@ -11,7 +11,7 @@ export const Footer = () => {
     <footer id="contact" className="mb-[100px] w-full pb-10 md:mb-auto">
       <div className="absolute -bottom-72 left-0 min-h-96 w-full">
         <Image
-          src="/footer-grid.svg"
+          src="footer-grid.svg"
           alt="grid"
           className="h-full w-full opacity-50"
           width={1260}
