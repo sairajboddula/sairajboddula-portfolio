@@ -52,7 +52,7 @@ export const Footer = () => {
             alt="logo"
             width={24}
             height={24}
-            className="rounded-full"
+            className="rounded-full object-cover"
           />
           <p className="text-sm font-light md:text-base md:font-normal">
             Copyright &copy; {new Date().getFullYear()}{" "}

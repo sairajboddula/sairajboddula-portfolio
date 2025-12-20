@@ -34,7 +34,7 @@ export const Hero = () => {
               alt="logo"
               width={80}
               height={80}
-              className="mb-6 h-20 w-20 animate-pulse rounded-full"
+              className="mb-6 h-20 w-20 animate-pulse rounded-full object-cover"
             />
             <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">
               Dynamic Web Magic with Next.js

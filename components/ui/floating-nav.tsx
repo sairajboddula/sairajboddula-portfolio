@@ -58,13 +58,13 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
           className
         )}
       >
-        <Link href="/" className="flex items-center space-x-2 pr-2">
+        <Link href="/" className="flex items-center justify-center">
           <NextImage
             src="logo.png"
             alt="logo"
             width={32}
             height={32}
-            className="h-8 w-8 rounded-full"
+            className="h-8 w-8 rounded-full object-cover"
           />
         </Link>
         {navItems.map((navItem: any, idx: number) => (
