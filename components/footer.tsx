@@ -48,7 +48,7 @@ export const Footer = () => {
       <div className="relative z-[999] mt-16 flex flex-col items-center justify-between md:flex-row">
         <div className="flex items-center gap-2">
           <NextImage
-            src="logo.jpg"
+            src="logo.png"
             alt="logo"
             width={24}
             height={24}

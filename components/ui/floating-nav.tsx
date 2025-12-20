@@ -60,11 +60,11 @@ export const FloatingNav = ({ navItems, className }: FloatingNavProps) => {
       >
         <Link href="/" className="flex items-center space-x-2 pr-2">
           <NextImage
-            src="logo.jpg"
+            src="logo.png"
             alt="logo"
             width={32}
             height={32}
-            className="h-8 w-8"
+            className="h-8 w-8 rounded-full"
           />
         </Link>
         {navItems.map((navItem: any, idx: number) => (

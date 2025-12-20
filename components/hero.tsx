@@ -30,7 +30,7 @@ export const Hero = () => {
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           <div className="flex flex-col items-center">
             <NextImage
-              src="logo.jpg"
+              src="logo.png"
               alt="logo"
               width={80}
               height={80}
