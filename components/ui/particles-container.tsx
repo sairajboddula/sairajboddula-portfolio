@@ -72,7 +72,8 @@ export const ParticlesContainer = () => {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            width: 800,
+                            height: 800,
                         },
                         value: 80,
                     },
