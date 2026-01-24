@@ -53,10 +53,10 @@ export const ParticlesContainer = () => {
                         value: ["#00f3ff", "#bc13fe"],
                     },
                     links: {
-                        color: "#ffffff",
+                        color: "#64748b",
                         distance: 140,
                         enable: true,
-                        opacity: 0.3,
+                        opacity: 0.2,
                         width: 1,
                     },
                     move: {
@@ -66,7 +66,7 @@ export const ParticlesContainer = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 1,
+                        speed: 0.3,
                         straight: false,
                     },
                     number: {
@@ -78,13 +78,13 @@ export const ParticlesContainer = () => {
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.8,
                     },
                     shape: {
                         type: "circle",
                     },
                     size: {
-                        value: { min: 1, max: 3 },
+                        value: { min: 1.5, max: 3 },
                     },
                 },
                 detectRetina: true,

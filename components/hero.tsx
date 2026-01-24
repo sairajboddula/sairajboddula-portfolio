@@ -29,13 +29,22 @@ export const Hero = () => {
       <div className="relative z-10 my-20 flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           <div className="flex flex-col items-center">
-            <NextImage
-              src="logo.png"
-              alt="logo"
-              width={80}
-              height={80}
-              className="mb-6 h-20 w-20 animate-pulse rounded-full object-cover"
-            />
+            {/* Spinning Glow Ring Wrapper */}
+            <div className="relative h-60 w-60 md:h-80 md:w-80 flex items-center justify-center mb-6">
+              {/* Spinning Ring */}
+              <div className="absolute inset-[-5px] rounded-full border-2 border-transparent border-t-[#00f3ff] border-l-[#bc13fe] opacity-60 spin-ring pointer-events-none" />
+
+              {/* Inner Image Container */}
+              <div className="relative h-full w-full rounded-full overflow-hidden border-2 border-[#00f3ff]/20 shadow-[0_0_40px_rgba(0,243,255,0.1)] transition-all duration-500 hover:scale-105 hover:shadow-[0_0_60px_rgba(0,243,255,0.3)] hover:border-[#00f3ff]">
+                <NextImage
+                  src="logo.png"
+                  alt="logo"
+                  fill
+                  className="h-full w-full object-cover object-[center_25%] scale-[1.6]"
+                />
+              </div>
+            </div>
+
             <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">
               Dynamic Web Magic with Next.js
             </h2>
