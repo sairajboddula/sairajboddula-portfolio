@@ -17,11 +17,16 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = siteConfig;
 
+import { ParticlesContainer } from "@/components/ui/particles-container";
+import { CustomCursor } from "@/components/ui/custom-cursor";
+
 const RootLayout = ({ children }: Readonly<PropsWithChildren>) => {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
+          <CustomCursor />
+          <ParticlesContainer />
           {children}
         </ThemeProvider>
       </body>
